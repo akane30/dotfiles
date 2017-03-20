@@ -49,4 +49,5 @@ fi
 # screen
 install_file "${HOME}/.screenrc" screenrc
 
-
+# tmux
+install_file "${HOME}/.tmux.conf" tmux.conf
