@@ -26,6 +26,14 @@ function install_file() {
     ln -sf "${THIS_DIR}/$2" "$1"
 }
 
+function install_dir() {
+    if [ ! -z "$1" ]; then
+        echo "$1 already exists, not linking!"
+    else
+        ln -sf "${THIS_DIR}/$2" "$1"
+    fi
+}
+
 # bash config
 install_file "${HOME}/.bashrc" bashrc
 install_file "${HOME}/.bash_profile" bash_profile
@@ -40,14 +48,13 @@ install_file "${HOME}/.Xdefaults" uxrvt/.Xdefaults
 
 # vim
 install_file "${HOME}/.vimrc" vimrc
-if [ ! -z "${HOME}/.vim" ]; then
-    echo "${HOME}/.vim already exists, not linking!"
-else
-    ln -sf "${THIS_DIR}/vim" "${HOME}/.vim"
-fi
+install_dir "${HOME}/.vim" vim
 
 # screen
 install_file "${HOME}/.screenrc" screenrc
 
 # tmux
 install_file "${HOME}/.tmux.conf" tmux.conf
+
+# i3
+install_dir "${HOME}/.i3" "i3"
