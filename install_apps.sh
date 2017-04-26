@@ -9,5 +9,5 @@ apt-get install \
     vim \
     tmux \
     ranger \
-    rvxt-unicode-256color \
+    rxvt-unicode-256color \
     zsh 

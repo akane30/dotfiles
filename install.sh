@@ -27,7 +27,7 @@ function install_file() {
 }
 
 function install_dir() {
-    if [ ! -z "$1" ]; then
+    if [ -d "$1" ]; then
         echo "$1 already exists, not linking!"
     else
         ln -sf "${THIS_DIR}/$2" "$1"
