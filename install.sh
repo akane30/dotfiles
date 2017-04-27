@@ -34,14 +34,18 @@ function install_dir() {
     fi
 }
 
+mkdir -p ~/.shellrc
+
 # bash config
 install_file "${HOME}/.bashrc" bashrc
 install_file "${HOME}/.bash_profile" bash_profile
+install_dir "${HOME}/.shellrc/bashrc.d" bashrc.d
 #install_file "${HOME}/.inputrc" inputrc
 
 # zsh config
 install_file "${HOME}/.zshrc" zshrc
 install_file "${HOME}/.zlogin" zlogin
+install_dir "${HOME}/.shellrc/zshrc.d" zshrc.d
 
 # uxrvt 
 install_file "${HOME}/.Xdefaults" uxrvt/.Xdefaults
