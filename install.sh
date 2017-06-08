@@ -8,7 +8,7 @@
 # We'll back up the files we're overwriting
 
 THIS_DIR="$(cd "$(dirname "$BASH_SOURCE[0]")" && pwd)"
-BACKUP_PATH="${HOME}/.dotfiles/old_configs"
+BACKUP_PATH="${THIS_DIR}/old_configs"
 
 function backup() {
 
@@ -47,6 +47,9 @@ install_file "${HOME}/.zshrc" zshrc
 install_file "${HOME}/.zlogin" zlogin
 install_dir "${HOME}/.shellrc/zshrc.d" zshrc.d
 
+# oh-my-zsh
+install_dir "${HOME}/.oh-my-zsh" oh-my-zsh
+
 # uxrvt 
 install_file "${HOME}/.Xdefaults" uxrvt/.Xdefaults
 
@@ -62,3 +65,4 @@ install_file "${HOME}/.tmux.conf" tmux.conf
 
 # i3
 install_dir "${HOME}/.i3" "i3"
+
