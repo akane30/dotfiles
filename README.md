@@ -13,3 +13,9 @@ git submodule add git@github.com/path/to/repo vim/bundle/subname
 
 then `git add` if necessary and `git commit`
 
+
+### ZSH Git prompt
+
+Setting the GIT prompt part to be yellow should be done directly in the theme in ~/.oh-my-zsh/themes/
+
+I'll get it set up automatically later...
