@@ -86,4 +86,4 @@ source $ZSH/oh-my-zsh.sh
 
 if [ "$COLORTERM" '==' "xfce4-terminal" ] ; then
     export TERM=xterm-256color
-f
+fi
