@@ -31,3 +31,6 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = git://github.com/robbyrussell/oh-my-zsh.git
+[submodule "xfce-terminal/base16-xfce4-terminal"]
+	path = xfce-terminal/base16-xfce4-terminal
+	url = https://github.com/afg984/base16-xfce4-terminal.git

@@ -50,6 +50,10 @@ install_dir "${HOME}/.shellrc/zshrc.d" zshrc.d
 # oh-my-zsh
 install_dir "${HOME}/.oh-my-zsh" oh-my-zsh
 
+# xfce themes
+mkdir -p "${HOME}/.local/share/xfce4/terminal" 
+install_dir "${HOME}/.local/share/xfce4/terminal/colorschemes" xfce-terminal/base16-xfce4-terminal/colorschemes
+
 # uxrvt 
 install_file "${HOME}/.Xdefaults" uxrvt/.Xdefaults
 
