@@ -34,3 +34,6 @@
 [submodule "xfce-terminal/base16-xfce4-terminal"]
 	path = xfce-terminal/base16-xfce4-terminal
 	url = https://github.com/afg984/base16-xfce4-terminal.git
+[submodule "vim/bundle/vim-easymotion"]
+	path = vim/bundle/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion
