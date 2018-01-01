@@ -55,3 +55,12 @@
 [submodule "vim/bundle/vim-orgmode"]
 	path = vim/bundle/vim-orgmode
 	url = https://github.com/jceb/vim-orgmode
+[submodule "vim/bundle/vim-graphql"]
+	path = vim/bundle/vim-graphql
+	url = https://github.com/jparise/vim-graphql.git
+[submodule "vim/bundle/csv.vim"]
+	path = vim/bundle/csv.vim
+	url = https://github.com/chrisbra/csv.vim
+[submodule "vim/bundle/vim-ledger"]
+	path = vim/bundle/vim-ledger
+	url = https://github.com/ledger/vim-ledger.git
