@@ -26,3 +26,7 @@ if [ -d $HOME/.shellrc/rc.d ]; then
     source $file
   done
 fi
+
+if [ $TERM == "xterm" ]; then
+    export TERM="xterm-256color"
+fi
