@@ -47,6 +47,9 @@ install_file "${HOME}/.zshrc" zshrc
 install_file "${HOME}/.zlogin" zlogin
 install_dir "${HOME}/.shellrc/zshrc.d" zshrc.d
 
+# Both shells
+install_dir "${HOME}/.shellrc/rc.d" rc.d
+
 # oh-my-zsh
 install_dir "${HOME}/.oh-my-zsh" oh-my-zsh
 
