@@ -41,6 +41,7 @@ let g:airline_powerline_fonts=1
 
 map <leader>n :NERDTreeToggle<CR>
 
+let base16colorspace=256
 
 if &diff
     highlight DiffAdd    cterm=bold ctermfg=10 ctermbg=17 gui=none guifg=bg guibg=Red

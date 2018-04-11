@@ -49,6 +49,12 @@
 [submodule "vim/bundle/tsuquyomi"]
 	path = vim/bundle/tsuquyomi
 	url = https://github.com/Quramy/tsuquyomi.git
+[submodule "vim/bundle/base16-vim"]
+	path = vim/bundle/base16-vim
+	url = https://github.com/chriskempson/base16-vim.git
+[submodule "vim/bundle/vim-orgmode"]
+	path = vim/bundle/vim-orgmode
+	url = https://github.com/jceb/vim-orgmode
 [submodule "vim/bundle/vim-graphql"]
 	path = vim/bundle/vim-graphql
 	url = https://github.com/jparise/vim-graphql.git
