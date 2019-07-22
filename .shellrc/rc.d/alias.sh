@@ -14,3 +14,7 @@ alias yarnc="yarn run compile"
 alias eim="emacsclient -n"
 
 alias eimh="emacsclient -nc"
+
+function dfconfig {
+    `which git` --git-dir="${HOME}/.cfg/" --work-tree="${HOME}" $@
+}
